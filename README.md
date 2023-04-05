@@ -14,7 +14,7 @@ Instagram Account that will be posting contents: [Instagram](https://www.instagr
 
 ## Development
 
-- Install Node.js and Visual Studio Code on your computer.
+- Install Git, Node.js and Visual Studio Code on your computer.
 
 #### Project setup
 ```
