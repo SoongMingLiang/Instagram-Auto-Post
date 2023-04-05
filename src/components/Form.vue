@@ -29,7 +29,7 @@ export default {
       }
       console.log(data)
       if(post.length !== 0){
-        fetch('http://localhost:5000/post/new', {
+        fetch('https://instagram-posts-api.vercel.app', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json; charset=UTF-8'
