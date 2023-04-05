@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="contain">
+    <img id="image" alt="Vue logo" src="./assets/instagram.png">
+  </div>
+  <PostForm msg="Welcome to Instagram-Auto-Posting page!"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PostForm from './components/Form.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PostForm
+  },
+  mounted() {
+    document.title = "Instagram-Auto-Post"
   }
 }
 </script>
@@ -19,8 +24,16 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  
+}
+#contain {
+    display: flex;
+    justify-content: center;
+  }
+#image {
+  width: 100px;
+  height: 100px;
 }
 </style>
