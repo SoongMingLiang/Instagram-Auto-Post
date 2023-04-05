@@ -1,4 +1,4 @@
-# client
+# Instagram-Auto-Post
 
 ## Project setup
 ```
