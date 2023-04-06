@@ -9,7 +9,8 @@ This project includes
 
 ***This is just the frontend web application, actual process is in a seperate API server***
 
-## Instagram Account 
+## Links
+Link to the Instagram-Auto-Post web application: [Instagram-Auto-Post](https://instagram-auto-post.vercel.app/)
 Instagram Account that will be posting contents: [Instagram](https://www.instagram.com/test.auto_post/)
 
 ## Development
