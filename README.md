@@ -12,7 +12,7 @@ This project includes
 ## Links
 Link to the Instagram-Auto-Post web application: [Instagram-Auto-Post](https://instagram-auto-post.vercel.app/).
 
-Instagram Account that will be posting contents: [Instagram](https://www.instagram.com/test.auto_post/)
+Instagram Account that will be posting contents: [Instagram](https://www.instagram.com/test.auto_post/).
 
 ## Development
 
