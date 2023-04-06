@@ -29,7 +29,7 @@ export default {
       }
       console.log(data)
       if(post.length !== 0){
-        fetch('https://instagram-posts-api.vercel.app', {
+        fetch('https://instagram-posts-api.onrender.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json; charset=UTF-8'
