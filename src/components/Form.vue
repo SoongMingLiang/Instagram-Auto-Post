@@ -37,6 +37,7 @@ export default {
           body: JSON.stringify(data)
         })
           .then(response => console.log(response))
+          .then(alert('Posted to Instagram!'))
           .catch(err => console.log(err))
       }
     }
